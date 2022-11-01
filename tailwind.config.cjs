@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        primary: "var(--bg-primary)",
+      },
+      
+      
       fontFamily: {
         daysone: ["DaysOne"],
         aoboshione: ["AoboshiOne"]

@@ -15,7 +15,7 @@ export const MenuInferior = () => {
     const [btnActive, setBtnActive] = useState({...initialState, home: true})
     
   return (
-    <footer  className='absolute bottom-0 flex justify-evenly w-full  border-t-[1px] border-[#000]'>
+    <footer  className='absolute bottom-0 flex justify-evenly w-full  border-t-[1px] border-[#000] bg-primary bg-white'>
 
         {Object.keys(initialState).map( (name, i) => <Btn key={i} initialState={initialState} name={name} btnActive={btnActive} setBtnActive={setBtnActive} />)}
 
