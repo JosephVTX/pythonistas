@@ -1,13 +1,10 @@
-import React from 'react'
-import { MenuInferior } from './components/menuInferior/MenuInferior'
-import { Nav } from './components/nav/Nav'
+import { Python } from './pages/Python'
 
 const App = () => {
   return (
-    <div>
-      <Nav/>
-      <MenuInferior/>
-    </div>
+    <>
+      <Python/>
+    </>
   )
 }
 

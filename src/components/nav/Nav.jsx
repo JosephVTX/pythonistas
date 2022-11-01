@@ -7,6 +7,8 @@ export const Nav = () => {
 
   const handleMenu = () => setOpen(!openMenu)
 
+  console.log(openMenu);
+
   return (
     <>
         
