@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        daysone: ["DaysOne"]
+        daysone: ["DaysOne"],
+        aoboshione: ["AoboshiOne"]
       }
     },
   },

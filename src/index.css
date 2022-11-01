@@ -7,3 +7,10 @@
     
     src: url("./fonts/DaysOne.ttf")
 }
+
+@font-face {
+
+  font-family: AoboshiOne;
+  
+  src: url("./fonts/AoboshiOne.ttf")
+}
