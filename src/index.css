@@ -7,3 +7,18 @@
     
     src: url("./fonts/DaysOne.ttf")
 }
+
+@font-face {
+
+  font-family: AoboshiOne;
+  
+  src: url("./fonts/AoboshiOne.ttf")
+}
+
+@layer base {
+  :root{
+
+    --bg-primary: #FFC730;
+    --bg-primary-linear:  linear-gradient(180deg, var(--bg-primary) 85.94%, rgba(64, 161, 209, 0) 100%);
+  }
+}
