@@ -45,6 +45,14 @@
   src: url("./fonts/AoboshiOne.ttf")
 }
 
+@font-face {
+
+  font-family: Acme;
+  
+  src: url("./fonts/Acme.ttf")
+}
+
+
 
 
 @layer base {

@@ -1,9 +1,10 @@
-import { Python } from './pages/Python'
+import { SaveCode } from './pages/SaveCode'
 
 const App = () => {
   return (
     <>
-      <Python/>
+      <SaveCode/>
+      
     </>
   )
 }

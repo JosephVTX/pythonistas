@@ -14,7 +14,8 @@ module.exports = {
       fontFamily: {
         daysone: ["DaysOne"],
         aoboshione: ["AoboshiOne"],
-        actor: ['Actor', 'sans-serif']
+        actor: ['Actor', 'sans-serif'],
+        acme: ["Acme", 'Regular']
       }
     },
   },
