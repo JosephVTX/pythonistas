@@ -60,5 +60,6 @@
 
     --bg-primary: #FFC730;
     --bg-primary-linear:  linear-gradient(180deg, var(--bg-primary) 85.94%, rgba(64, 161, 209, 0) 100%);
+    --btn-bg-linear-gradient-1: linear-gradient(180deg, rgba(10, 172, 143, 0.481753) 25%, rgba(10, 172, 143, 0.4489) 35.42%, rgba(10, 172, 123, 0.67) 75%, rgba(10, 172, 114, 0.5092) 99.98%, rgba(96, 172, 10, 0.549842) 99.99%);
   }
 }
