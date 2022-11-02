@@ -1,17 +1,18 @@
 import React from 'react'
+import Menu from '../menu/Menu'
 import './Nav.css'
 
 export const Nav = () => {
 
-  const [openMenu, setOpen] = React.useState(false)
+  const [openMenu, setOpenMenu] = React.useState(false)
 
-  const handleMenu = () => setOpen(!openMenu)
+  const handleMenu = () => setOpenMenu(!openMenu)
 
-  console.log(openMenu);
 
   return (
     <>
-        
+        <Menu isOpen={openMenu} setOpenMenu={setOpenMenu}/>
+
         <nav   className='nav flex items-center justify-between h-[3.625rem] px-[1.125rem] [background:var(--bg-primary-linear)]'>
 
             <img src="../icons/menu.svg" alt="menu" onClick={handleMenu} />

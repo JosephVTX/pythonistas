@@ -6,7 +6,7 @@ export const Python = () => {
   return (
     <>
       <Nav />
-
+      
       <section className="w-full mt-[2.25rem] ">
         <img
           className="m-auto h-[11.375rem] w-full object-cover"
